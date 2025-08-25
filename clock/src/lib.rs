@@ -26,3 +26,4 @@ impl Display for Clock {
         write!(f, "{:02}:{:02}", self.hours, self.minutes)
     }
 }
+
